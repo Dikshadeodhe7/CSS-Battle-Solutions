@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Push Button</title>
+    <style>
+        body{
+            margin: 0;
+            background: #6592CF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .push-button {
+            position: relative;
+            width: 300px;
+            height: 150px;
+            overflow: hidden;
+            margin: 75px 50px;
+            background: #243D83;
+        }
+        .outer-circle {
+            width: 150px;
+            height: 150px;
+            border: 50px solid #6592CF;
+            border-radius: 50%;
+            background: #243D83;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .inner-circle {
+            background: #EEB850;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin: 50px auto;
+        }
+    </style>
+</head>
+<body>
+        <div class="push-button">
+            <div class="outer-circle"> 
+                <div class="inner-circle"></div>
+            </div>
+        </div>
+</body>
+</html>
