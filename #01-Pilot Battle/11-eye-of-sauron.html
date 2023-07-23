@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11 Eye Of Sauron</title>
+
+    <style>
+        *{
+            margin: 0;
+        }
+        body {
+            background-color: #191210;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+            height: 100vh;
+        }
+        .circle {
+            width: 140px;
+            height: 140px;
+            border: 20px solid #ECA03D;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .inner-circle {
+            background-color: #84271C;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+        .half-circle {
+            width: 100px;
+            height: 50px;
+            border: 20px solid #ECA03D;
+            border-top: 0;
+            border-bottom-left-radius: 100px;
+            border-bottom-right-radius: 100px;
+        }
+        .half-circle.left {
+            margin-right: -20px;
+            margin-bottom: -50px;
+        }
+        .half-circle.right {
+            margin-left: -20px;
+            margin-top: -50px;
+            transform: scale(-1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="half-circle left"></div>
+    <div class="circle">
+        <div class="inner-circle"></div>
+    </div>
+    <div class="half-circle right"></div>
+    
+</body>
+</html>
