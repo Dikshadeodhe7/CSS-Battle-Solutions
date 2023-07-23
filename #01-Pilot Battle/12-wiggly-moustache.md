@@ -1,4 +1,4 @@
-//Solution 1
+Solution 1
 <div class="half-circle left"></div>
 <div class="half-circle center"></div>
 <div class="half-circle right"></div>
@@ -46,7 +46,7 @@
       }  
 </style>
 
-//Solution 2
+Solution 2
 <div id="l"></div> 
 <div id="c"></div> 
 <div id="r"></div> 
