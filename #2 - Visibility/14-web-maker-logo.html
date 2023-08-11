@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Maker Logo</title>
+    <style>
+        body {
+            background: #F2F2B6;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .wrapper {
+            width: 0;
+            position: relative;
+            width: 280px;
+            height: 130px;
+            margin: 85px auto;
+        }
+        .triangle {
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-top: 130px solid #FF6D00;
+            border-left: 75px solid transparent;
+            border-right: 75px solid transparent;
+        }
+        .triangle:nth-child(1) {
+            left: 20px;
+            border-top-color: #FD4602;
+        }
+        .triangle:nth-child(3) {
+            left: 110px;
+            transform: scale(-1);
+            border-top-color: #FD4602;
+            z-index: 1;
+        }
+        .triangle:nth-child(4) {
+            left: 130px;
+            transform: scale(-1);
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="triangle"></div>
+        <div class="triangle"></div>
+        <div class="triangle"></div>
+        <div class="triangle"></div>
+    </div>
+</body>
+</html>
